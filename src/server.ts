@@ -1,21 +1,21 @@
-import app from './app';
-
 import mongoose from 'mongoose';
+import app from './app';
 import config from './app/config';
-// const port = 3000;
-
-// main().catch((err) => console.log(err));
 
 async function main() {
   try {
     await mongoose.connect(config.database_url as string);
+
     app.listen(config.port, () => {
-      console.log(`Example app listening on port ${config.port}`);
+      console.log(`app is listening on port ${config.port}`);
     });
-  } catch (error) {
-    console.log(error);
+  } catch (err) {
+    next(err);
   }
 }
-main().catch((error) => {
-  console.error('Error connecting to MongoDB:', error);
-});
+
+main();
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+function next(err: unknown) {
+  throw new Error('Function not implemented.');
+}

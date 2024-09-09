@@ -1,8 +1,8 @@
-export interface IUser {
+export type TProduct = {
   name: string;
-  email: string;
-  password: string;
-  phone: string;
-  role: 'admin' | 'user';
-  address: string;
-}
+  price: number;
+  category: [];
+  description?: string;
+  stock: number;
+  images: string;
+};
