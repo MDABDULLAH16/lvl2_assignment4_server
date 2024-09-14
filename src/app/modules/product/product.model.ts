@@ -12,14 +12,8 @@ const productSchema = new Schema<TProduct>({
     min: [0, 'Price must be a positive number'],
   },
   category: {
-    type: [String],
+    type: String,
     required: [true, 'At least one category is required'],
-    validate: {
-      validator: function (v: string[]) {
-        return v.length > 0;
-      },
-      message: 'At least one category is required',
-    },
   },
   description: {
     type: String,
@@ -31,6 +25,10 @@ const productSchema = new Schema<TProduct>({
     min: [0, 'Stock cannot be negative'],
   },
   images: {
+    type: String,
+    required: [true, 'Image URL is required'],
+  },
+  benefits: {
     type: String,
     required: [true, 'Image URL is required'],
   },
