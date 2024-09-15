@@ -1,6 +1,5 @@
-
 <div align="center">
-  <h1>Comprehensive Project README Template</h1>
+  <h1>Fit Gear Hub</h1>
 </div>
 
 ---
