@@ -32,8 +32,15 @@ your go-to destination for top-quality fitness equipment and accessories. Founde
 ```
 npm install
 npm run start:dev
-`
 
+```
+### Configuration
 
+```
+PORT=5000
+NODE_ENV='development'
+DATABASE_URL=mongodb+srv://admin44:SnR33Js6B7vpq8kj@cluster0.de47bim.mongodb.net/assignment-4?retryWrites=true&w=majority&appName=Cluster0
+BCRYPT_SALT_ROUND=10
+JWT_ACCESS_SECRET=5dc0db5b5d9582b6fd19960dd4a78667fb75e5228398ddea0c8de4a11b0de596
 
 ```
