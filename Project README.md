@@ -1,54 +1,34 @@
 <div align="center">
-  <h1>Fit Gear Hub</h1>
+  <h1>Project overview /h1>
 </div>
 
 ---
 
-# Project Name
+## Fir Gear Hub
 
-## Introduction
+# Introduction
 
-Brief introduction or tagline about the project.
+your go-to destination for top-quality fitness equipment and accessories. Founded in 2020, we are dedicated to helping you achieve your fitness goals with our range of premium products. Our mission is to provide innovative solutions that enhance your workout experience and promote a healthier lifestyle. Our vision is to be the leading provider of fitness solutions, making high-quality equipment accessible to everyone.
 
-## Project Description
 
-Detailed description of the project, including its purpose and goals.
+# Technology Stack
 
-## Features
+- Node.js, Express, TypeScript, MongoDB, Mongoose, JWT, Zod, bcrypt, CORS, dotenv, ESLint, Prettier.
 
-- List of key features or functionalities.
-- Bullet points are helpful for clarity.
+# Installation Guideline
 
-## Technology Stack
-
-- List of technologies, frameworks, and tools used in the project.
-- Example: React, Redux, Node.js, MongoDB, etc.
-
-## Installation Guideline
-
-Instructions on how to install, configure, and get the project running locally.
+-git clone 
 
 ### Prerequisites
 
-- List any software or dependencies that need to be installed beforehand (if any).
+- npm,node.js,MongoDB,Git
 
-### Installation Steps
+### Installation Steps and run
 
-1. Step-by-step instructions on how to install the project.
-2. Provide code examples or commands for clarity.
+```
+npm install
+npm run start:dev
+`
 
-### Configuration
 
-1. Create a `.env` file in the root directory of the project.
-2. Add necessary configuration variables in the `.env` file.
-   Example:
-   ```bash
-    PORT=3000
-    DB_URL=your_db_connection_uri
-    API_KEY=your_api_key_here
-   ```
-3. Explain any specific configuration requirements or variables used in your project.
 
-## Usage
-
-Instructions or examples for using the project. Include screenshots or code snippets if applicable.
