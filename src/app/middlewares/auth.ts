@@ -14,7 +14,7 @@ const auth = (...authRoles: TUserRole[]) => {
         throw new AppError(
           httpStatus.UNAUTHORIZED,
           'You do not have the necessary permissions to access this resource.',
-          'Unauthorized Access',
+          'Unauthorized Access'
         );
       }
 
@@ -27,7 +27,7 @@ const auth = (...authRoles: TUserRole[]) => {
             throw new AppError(
               httpStatus.UNAUTHORIZED,
               'You do not have the necessary permissions to access this resource.',
-              'Unauthorized Access',
+              'Unauthorized Access'
             );
           }
 
@@ -37,13 +37,13 @@ const auth = (...authRoles: TUserRole[]) => {
             throw new AppError(
               httpStatus.UNAUTHORIZED,
               'You do not have the necessary permissions to access this resource.',
-              'Unauthorized Access',
+              'Unauthorized Access'
             );
           }
           //   decoded
           req.user = decoded as JwtPayload;
           next();
-        },
+        }
       );
     } catch (err) {
       next(err);
