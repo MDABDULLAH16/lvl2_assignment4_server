@@ -1,10 +1,11 @@
 <div align="center">
   <h1>Project overview </h1>
 </div>
-[live Link:]( https://fitgearhub-server.vercel.app/)
 ---
 
 ## Fir Gear Hub
+
+[live Link:](https://fitgearhub-server.vercel.app/)
 
 # Introduction
 
