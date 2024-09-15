@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>Project overview /h1>
+  <h1>Project overview </h1>
 </div>
 
 ---
